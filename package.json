@@ -1,12 +1,13 @@
 {
   "name": "web-server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Udemy Node.js Developer course",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon server.js -e js, hbs"
+    "test": "nodemon server.js -e js, hbs",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Ken Dulin",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.2",
