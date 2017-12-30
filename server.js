@@ -1,7 +1,7 @@
 const express = require('express');
 // Handlbars template engine
 const hbs = require('hbs');
-const fs = require('fs');
+// const fs = require('fs');
 const port = process.env.PORT || 3000;
 
 var app = express();
@@ -16,11 +16,11 @@ app.use((req, res, next) => {
     var log = `${now}: ${req.method} ${req.url}`
     console.log(log);
     // Callback required in node v7+
-    fs.appendFile('server.log', log + '\n', (err) => {
-        if (err) {
-            console.log('Unable to append to server.log');
-        }
-    });
+    // fs.appendFile('server.log', log + '\n', (err) => {
+    //     if (err) {
+    //         console.log('Unable to append to server.log');
+    //     }
+    // });
     next();
 });
 
