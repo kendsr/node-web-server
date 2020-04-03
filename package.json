@@ -10,6 +10,7 @@
   "author": "Ken Dulin",
   "license": "ISC",
   "dependencies": {
+     "kind-of": ">=6.0.3",
     "express": "^4.16.2",
     "hbs": "^4.0.1"
   }
