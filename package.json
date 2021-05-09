@@ -12,7 +12,7 @@
   "dependencies": {
      "kind-of": ">=6.0.3",
     "minimist": ">=1.2.3",
-    "handlebars": ">=4.3.0",
+    "handlebars": ">=4.7.7",
     "express": "^4.16.2",
     "hbs": "^4.0.1"
   }
